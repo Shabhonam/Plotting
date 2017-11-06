@@ -45,7 +45,7 @@ p2 <- ggplot() + theme_bw() +
   
   scale_x_continuous(breaks=seq(0,50,2)) +
   labs(x="Hours",y="Read counts %") +
-  ggtitle("Fecal bacterial population from an 12 month-old grown in dialysed breast milk")
+  ggtitle("title")
 
 
 
