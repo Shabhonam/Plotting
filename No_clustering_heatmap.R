@@ -1,16 +1,20 @@
+
+#Author Shabhonam.caim@quadram.ac.uk
 #########################################################
+
+
 ### Loading required packages and setting working directory
 #########################################################
 library(gplots)
 library(RColorBrewer)
  
-#setwd("U:/Raymond_Kiu/Research/Aim1_WGS_analysis/")    #set working directory
+#setwd("")    #set working directory
  
 #########################################################
 ### reading in data and transform it to matrix format
 #########################################################
  
-data <- read.csv("P8others.csv")
+data <- read.csv("Heatmapothers.csv")
 rnames <- data[,1]                            # assign labels in column 1 to "rnames"
 mat_data <- data.matrix(data[,2:ncol(data)])  # transform column 2-5 into a matrix
 rownames(mat_data) <- rnames                  # assign row names
