@@ -1,3 +1,5 @@
+#Author Shabhonam.caim@quadram.ac.uk
+
 setwd("~/Desktop/Scripts/") 
 # library(scales)
 library(ggplot2)
