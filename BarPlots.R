@@ -1,4 +1,5 @@
-setwd("~/Desktop/Testdata/NewcastleData/")
+#Author Shabhonam.caim@quadram.ac.uk
+setwd("~/Desktop/Testdata/")
 library(ggplot2)
 Stack_data <- read.csv("tiny-test.csv")
 png("Taxon.png",
