@@ -1,2 +1,6 @@
 # Plotting
-R script to plot area plots for taxon profile. Please check testdata for input example.
+This collection of R scripts plots various types of plots
+Areaplot
+Barplot
+Heatmap
+Please check testdata for each R script.
