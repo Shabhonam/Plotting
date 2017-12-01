@@ -1,4 +1,4 @@
-setwd("~/Desktop/Testdata/Mel/PCA_Mel/")
+setwd("~/Desktop/Testdata/")
 library(ggfortify)
 library(cluster)
 require("gplots")
