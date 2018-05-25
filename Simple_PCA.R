@@ -8,7 +8,8 @@ data <- read.csv("NMDS_data_mel.csv")
 head(data[, 1:7])
 
 df <- data[c(2:ncol(data))]
-
+pca_data <-prcomp(df)
+write.csv(pca_data, "logdata.csv")
 
 
 png("PCA_test.png",
