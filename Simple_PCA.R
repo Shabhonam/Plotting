@@ -7,7 +7,7 @@ require("RColorBrewer")
 data <- read.csv("NMDS_data_mel.csv")
 head(data[, 1:7])
 
-df <- data[c(2:87)]
+df <- data[c(2:ncol(data))]
 
 
 
