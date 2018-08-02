@@ -48,7 +48,15 @@ genusPalette <- c( Acinetobacter="#CDCD00",
                    Ureaplasma="#EEE0E5",
                    Staphylococcus="#FF4040",
                    Varibaculum="#a5571c",
-                   Veillonella="#F4A460" )
+                   Veillonella="#F4A460",
+                   Bradyrhizobium="black",
+                   Burkholderia="brown",
+                   Neisseria="#FF00FF",
+                   Ochrobactrum="#848484",
+                   Peptostreptococcus="#282828",
+                   Roseomonas="#B7B7B7"
+                   )
+
 
 
 
